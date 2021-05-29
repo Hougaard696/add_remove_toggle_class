@@ -1,7 +1,7 @@
 $(function() {
   // Write the jquery to  fill in the span when you hover one of the span.
-  $(".grid").on('onhover', function () {
-    
+  $("span").hover(function () {
+    $(this).addClass('filled')
   })
   // Hint: See the CSS provided for class names
 
