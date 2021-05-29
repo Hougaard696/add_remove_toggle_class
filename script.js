@@ -3,7 +3,9 @@ $(function() {
   $("span").hover(function () {
     $(this).addClass('filled')
   })
-  // Hint: See the CSS provided for class names
 
   // Write the jQuery to clear all drawings when the user clicks the clear button
+  $('.clear').click(function () {
+    $('span').removeClass('filled')
+  })
 });
