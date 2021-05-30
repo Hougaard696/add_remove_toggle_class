@@ -5,7 +5,7 @@ $(function() {
     
     setInterval(() =>{
       $(this).removeClass('filled')
-    }, 100)
+    }, 2000)
   })
 
   // Write the jQuery to clear all drawings when the user clicks the clear button
